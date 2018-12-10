@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of HTML Form Controls</title>
+</head>
+<body>
+	<CENTER>
+    <form id="login-form" method="post" action="deatils.php" >
+	<h1> PERSONAL DETAILS</h1>
+        <fieldset>
+        	<legend>COLLEGE DETAILS</legend>
+            <label for="Name">Name</label>
+        	<input type="text" name="Name" id="user-name" required>
+            <br /> <br />
+            <label for="dept">dept</label>
+        	<input type="text" name="dept" id="dept">
+        </fieldset>
+        <fieldset>
+        	<legend>Gender</legend>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+       
+        <fieldset>
+        	<legend>location</legend>
+            <label for="location">location</label>
+        	<input type="text" name="location" id="location" required>
+            <br /> <br />
+        </fieldset>
+		<fieldset>
+        	<legend>Email</legend>
+			 <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email">
+        </fieldset>
+        <fieldset>
+        	<legend>collegeid</legend>
+            <label for="collegeid">Collegeid</label>
+        	<input type="text" name="Collegeid" id="collegeid">
+        </fieldset>
+        <fieldset>
+        	<legend>Mobile</legend>
+            <label for="MobileNo">MobileNo</label>
+        	<input type="number" name="MobileNo" id="MobileNo">
+        </fieldset>
+        <fieldset>
+        	<legend>Area of interest</legend>
+            <label for="Area">Area</label>
+            <select name="Area" id="Area">
+                <option value="php">Php</option>
+                <option value="application developer">application developer</option>
+                <option value="full stack developer">full stack developer</option>
+            </select>
+        </fieldset>
+        <fieldset>
+        	<legend>Action</legend>
+            <input type="submit" value="Submit">
+        	<input type="reset" value="Reset">
+        </fieldset>
+    </form>
+	</CENTER>
+</body>
+</html>   
